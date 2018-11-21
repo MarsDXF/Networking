@@ -14,6 +14,10 @@
 		51946B5121A56775008EC6CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51946B4F21A56775008EC6CF /* LaunchScreen.storyboard */; };
 		51946B5921A56960008EC6CF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 51946B5821A56960008EC6CF /* .gitignore */; };
 		51946B5B21A599AE008EC6CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51946B5A21A599AE008EC6CF /* ViewController.swift */; };
+		51946B5D21A5AD8A008EC6CF /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51946B5C21A5AD8A008EC6CF /* CoursesViewController.swift */; };
+		51946B5F21A5B09B008EC6CF /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51946B5E21A5B09B008EC6CF /* WebViewViewController.swift */; };
+		51946B6121A5B10B008EC6CF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51946B6021A5B10A008EC6CF /* Course.swift */; };
+		51946B6321A5B587008EC6CF /* WebsiteDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51946B6221A5B587008EC6CF /* WebsiteDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		51946B5221A56775008EC6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51946B5821A56960008EC6CF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		51946B5A21A599AE008EC6CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51946B5C21A5AD8A008EC6CF /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		51946B5E21A5B09B008EC6CF /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		51946B6021A5B10A008EC6CF /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		51946B6221A5B587008EC6CF /* WebsiteDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				51946B4621A56772008EC6CF /* AppDelegate.swift */,
+				51946B5C21A5AD8A008EC6CF /* CoursesViewController.swift */,
 				51946B4821A56772008EC6CF /* ImageViewController.swift */,
 				51946B5A21A599AE008EC6CF /* ViewController.swift */,
+				51946B5E21A5B09B008EC6CF /* WebViewViewController.swift */,
+				51946B6021A5B10A008EC6CF /* Course.swift */,
+				51946B6221A5B587008EC6CF /* WebsiteDescription.swift */,
 				51946B4A21A56772008EC6CF /* Main.storyboard */,
 				51946B4D21A56775008EC6CF /* Assets.xcassets */,
 				51946B4F21A56775008EC6CF /* LaunchScreen.storyboard */,
@@ -142,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51946B6321A5B587008EC6CF /* WebsiteDescription.swift in Sources */,
+				51946B6121A5B10B008EC6CF /* Course.swift in Sources */,
+				51946B5F21A5B09B008EC6CF /* WebViewViewController.swift in Sources */,
 				51946B5B21A599AE008EC6CF /* ViewController.swift in Sources */,
+				51946B5D21A5AD8A008EC6CF /* CoursesViewController.swift in Sources */,
 				51946B4921A56772008EC6CF /* ImageViewController.swift in Sources */,
 				51946B4721A56772008EC6CF /* AppDelegate.swift in Sources */,
 			);
